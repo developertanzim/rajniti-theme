@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@200;400;900&display=swap');
+body{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    
+}
+html{
+    font-family: 'Noto Sans Bengali', sans-serif;
+
+}
+*{
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+html p{
+    margin-bottom: 0;
+}
+html a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+/*basic Style*/
+.themeborder-top-bootom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+/*basic Style*/
+
+/*heading*/
+.heading h3{
+    font-size: 15pt;
+    font-weight: bold;
+}
+/*heading*/
+
+/*menu*/
+.menu-bg{
+    background-color: #00a651;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: bisque;
+}
+.nav-link{
+    color: white ;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+#nav-linkd{
+    color: rgb(252, 252, 252);
+}
+#nav-linkd:hover{
+    background-color: rgb(142, 223, 126);
+    color: black;
+    border-radius: 3%;
+}
+/*newsticker*/
+.newstricker{
+    background-color: green;
+    padding: 5px 0px 5px 0px;
+}
+.newstricker a{
+    color: honeydew;
+    font-size: 13pt;
+}
+.newstricker a:hover{
+    color: rgb(14, 14, 14);
+}
+.newstricker i{
+    color: honeydew;
+
+}
+.newstricker marquee{
+    margin-top: 5px;
+}
+
+/*newsticker*/
+
+/*sovapotirbano*/
+.sovapotirvanisec{
+    padding: 10px 0px 10px 0px;
+    
+}
+.sovapoticontainers{
+    background-color: rgb(250, 26, 112);
+}
+.sovapotipic{
+    float: left;
+    width: 15%;
+}
+.sovapotipic img{
+
+}
+.sovapotipic p{
+    text-align: center;
+}
+.sovapotirbanicontent{
+    
+}
+.sovapotirbanicontent p{
+    text-align: justify;
+    line-height: 20pt;
+}
+.sovapotirbanicontent a{
+    background-color: rgb(60, 71, 61);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+.sovapotirbanicontent a:hover{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+/*sovapotirbano*/
+
+/*netakormi*/
+.neta:hover{
+    box-shadow: 1px 1px 7px 0px #828080;
+    cursor: pointer;
+}
+.neta{
+
+    width: min-content;
+    padding: 13px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.neta p{
+    text-align: center;
+}
+/*netakormi*/
+
+/*samprotinews*/
+.news_wrap{
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.news_wrap p{
+    padding: 10px;
+}
+.news_wrap a{
+    color: black;
+}
+.news_wrap a:hover{
+    color: rgb(221, 26, 26);
+}
+.news_wrap img{
+    float: left;
+    padding-right: 10px;
+}
+/*samprotinews*/
+
+
+/*Event*/
+.event_wrap{
+
+}
+.event_wrap img{
+    float: left;
+}
+.event_content{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    float: left;
+}
+.event_content h5 a{
+    color: black;
+}
+.eventbutton{
+    border: 1px solid black;
+    background: none;
+    padding: 10px;
+    width: 15%;
+    margin: 5% 0% 5% 4%;
+    border-radius: 4%;
+}
+.eventbutton:hover{
+    background-color: #828080;
+    color: black;
+}
+/*Event*/
+
+/*Donate*/
+.donate_wrap{
+    height: 100%;
+    background-color: #ff7f50d1;
+    padding: 34px;
+}
+.join_wrap{
+    height: 100%;
+    background-color: #9dfb208a;
+    padding: 34px;
+}
+.donatesectionbg{
+    background-image: url("asset/image/donate.jpg");
+    height: 100%;
+    
+}
+.donatebutton{
+    border: 1px solid black;
+    background: none;
+    padding: 10px;
+    border-radius: 4%;
+}
+/*Donate*/
+.footer{
+    background-color: rgb(53, 53, 53);
+    height: auto;
+    padding-bottom: 20px;
+}
+.logo img{
+    padding-top: 30px;
+    width: 35%;
+    padding-bottom: 25px;
+}
+.wrapdeatails{
+    color: white;
+    font-size: 12pt;
+    line-height: 10pt;
+}
+.wrapdeatails p{
+    padding: 7% 0% 0% 0%;
+}
+.enventfooterwrp{
+    color: rgb(231, 231, 231);
+}
+.enventfooterwrp p{
+    padding: 7% 0% 7% 0%;
+}
+.wrapevt{
+    
+}
+.wrapevt img{
+    float: left;
+    padding-right: 5%;
+}
+.wrapevt p{
+    display: inline;
+    
+}
+.wrapevt p a{
+    color: rgb(221, 221, 221);
+    
+}
+.footerbottom{
+    background-color: black;
+    height: auto;
+    padding: 10px;
+}
+.footerbottom p{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/*Footer*/
+
+
+.navbar-brand i{
+    color: aliceblue;
+}
